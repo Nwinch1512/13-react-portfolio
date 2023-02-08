@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Header.css";
+const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
+const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -42,7 +44,10 @@ function Header() {
         </nav>
       </section>
       <section>
-        <div className="jumbotron jumbotron-fluid jumbotron-custom">
+        <div
+          className="jumbotron jumbotron-fluid jumbotron-custom"
+          style={{ backgroundImage: "url(" + jumbotronImg + ")" }}
+        >
           <div className="row align-items-center">
             <div className="col">
               <h1>Naomi Winchurch</h1>
@@ -54,7 +59,7 @@ function Header() {
             <div className="col-sm-2">
               <img
                 className="naomi-pic"
-                src="/images/Bootcamp_profile_pic.jpeg"
+                src={profileImg}
                 alt="photograph of Naomi Winchurch"
               />
             </div>

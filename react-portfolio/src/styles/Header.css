@@ -18,3 +18,21 @@ h1 {
 .nav-item {
   margin: 0px 15px;
 }
+
+.jumbotron-custom {
+  /* background-image: url({jumbotronImg}); */
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.custom-hero-text {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.naomi-pic {
+  width: 90px;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(82, 82, 82);
+}
