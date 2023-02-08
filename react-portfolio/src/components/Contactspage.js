@@ -25,7 +25,9 @@ function Contactspage() {
           />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label for="exampleFormControlTextarea1">
+            Type your message below
+          </label>
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
