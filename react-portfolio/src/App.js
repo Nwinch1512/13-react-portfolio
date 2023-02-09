@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Homepage from "./components/Homepage";
 import Projectspage from "./components/Projectspage";
 import Contactspage from "./components/Contactspage";
+import projects from "./projects.json";
 
 function App() {
   return (
