@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Homepage from "./components/Homepage";
 import Projectspage from "./components/Projectspage";
@@ -7,12 +8,17 @@ import projects from "./projects.json";
 
 function App() {
   return (
-    <div>
+    <main>
+      {/* <Switch>
+        <Route path="/" component={Homepage} exact />
+        <Route path="/Contactspage" component={Contactspage} />
+        <Route path="/" component={Homepage} exact />
+      </Switch> */}
       <Header />
       <Homepage />
       <Projectspage />
       <Contactspage />
-    </div>
+    </main>
   );
 }
 
