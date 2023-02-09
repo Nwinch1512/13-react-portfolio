@@ -9,14 +9,15 @@ function Project(props) {
       </div>
       <div className="content">
         <ul>
-          <li>
-            <strong>
-              <a href={props.url}>Title:</a>
-            </strong>
+          {/* <button>
+            <strong>Title:</strong> */}
+          {/* <a href={props.url}> {props.title}</a> */}
+          <a class="btn btn-primary" href={props.url} role="button">
             {props.title}
-          </li>
+          </a>
+          {/* </button> */}
           <li>
-            <strong>GitHub repo:</strong> {props.GitHub}
+            Check out the project on <a href={props.GitHub}>GitHub</a>!
           </li>
         </ul>
       </div>
