@@ -1,7 +1,12 @@
 /* Need to update styling as taken from demo!!! */
+h2 {
+  color: rgb(82, 82, 82);
+}
+
 .wrapper {
   padding-top: 75px;
   background: #3e5f6159;
+  color: rgb(82, 82, 82);
   height: 100%;
   display: flex;
   flex-flow: row wrap;

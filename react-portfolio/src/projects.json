@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Meal Planner",
-    "image": "../../public/images/01-meal-planner.jpeg",
+    "image": "../images/01-meal-planner.jpeg",
     "url": "https://nwinch1512.github.io/09-weekly-meal-planner/",
     "GitHub": "https://github.com/Nwinch1512/09-weekly-meal-planner",
     "summary": "This "
