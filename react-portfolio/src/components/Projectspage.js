@@ -21,10 +21,10 @@ const imgArr = [
   bootstrapPortfolioImg,
 ];
 
-function renderImg(url) {
-  const img = require(url);
-  return img;
-}
+// function renderImg(url) {
+//   const img = require(url);
+//   return img;
+// }
 
 class Projectspage extends Component {
   state = { projects };

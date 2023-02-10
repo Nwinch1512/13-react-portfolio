@@ -1,9 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
-
-// By importing the Header.css file, it is added to the DOM whenever this component loads
 
 function Header() {
   return (
@@ -23,21 +22,39 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="#home">
-                  Homepage
-                </a>
+              <li className="nav-item">
+                <NavLink
+                  to="/"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
+                <NavLink
+                  to="project"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   Projects
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <NavLink
+                  to="contact"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
