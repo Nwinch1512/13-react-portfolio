@@ -34,6 +34,14 @@ label,
   color: white !important;
 }
 
+.form-control:hover {
+  background-color: rgb(82, 82, 82);
+  color: white !important;
+  transition: 1s;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 @media (max-width: 412px) {
   .form-group {
     width: 75%;

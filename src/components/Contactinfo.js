@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Contactspage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -10,6 +12,7 @@ function Contact() {
             <h2 className="card-title">Contact </h2>
             <div className="contact-info">
               <p className="contact">
+                <FontAwesomeIcon icon={faAddressBook} />
                 Please read my <a href="../CV.pdf">CV</a> for information on my
                 background. Feel free to{" "}
                 <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if
@@ -30,6 +33,7 @@ function Contact() {
                 </a>{" "}
                 profile
               </p>
+
               <p className="contact">
                 Please refer to my{" "}
                 <a
