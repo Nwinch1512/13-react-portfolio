@@ -8,7 +8,7 @@ function Contactspage() {
       <div classNameName="contact">
         <h2>Contact</h2>
         <p>
-          Please read my <a href="./CV.pdf">CV</a> for information on my
+          Please read my <a href="../CV.pdf">CV</a> for information on my
           background. Feel free to{" "}
           <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if you
           have any questions or fill out the contact form below.

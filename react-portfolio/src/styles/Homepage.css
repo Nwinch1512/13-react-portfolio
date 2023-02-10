@@ -1,6 +1,36 @@
+h2 {
+  padding: 30px;
+  background-color: rgb(82, 82, 82);
+  color: white;
+}
+
+.about {
+  padding: 30px;
+}
+
+.about {
+  background-color: #3e5f6159;
+}
+
+.skills-items {
+  width: 25%;
+}
+
+.listContainer {
+  display: flex;
+  width: 100%;
+  background-color: #3e5f6159;
+}
+
+.cardContainer {
+  padding: 50px;
+  line-height: 2rem;
+}
+
 .section {
   background: #f3e5f5;
   padding: 20px;
+  line-height: 1.5;
 }
 
 .section h2 {

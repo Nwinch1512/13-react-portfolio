@@ -3,10 +3,10 @@ import "../styles/Wrapper.css";
 
 function Wrapper(props) {
   return (
-    <main>
-      <h2>Projects</h2>
+    <div class="cardContainer col-lg-12 col-md-12 col-sm-3">
+      <h2 className="card-title">Projects</h2>
       <div className="wrapper">{props.children}</div>
-    </main>
+    </div>
   );
 }
 

@@ -1,11 +1,13 @@
 /* Need to update styling as taken from demo!!! */
 h2 {
-  color: rgb(82, 82, 82);
+  padding-bottom: 10px;
+  background-color: rgb(82, 82, 82);
+  color: white;
 }
 
 .wrapper {
   padding-top: 75px;
-  background: #3e5f6159;
+  background-color: #3e5f6159;
   color: rgb(82, 82, 82);
   height: 100%;
   display: flex;
