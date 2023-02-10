@@ -1,13 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
+
 const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
 
 function Header() {
   return (
     <header>
-      <section classNameName="navContainer">
+      <section className="navContainer">
         <nav className="navbar navbar-expand-lg navbar-light bg-light custom-nav">
           <button
             className="navbar-toggler"

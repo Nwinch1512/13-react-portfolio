@@ -33,8 +33,9 @@ label,
   border: none;
   color: white !important;
 }
-/* 
-.contact-body {
-  background-color: #3e5f6159;
-  margin: 20px;
-} */
+
+@media (max-width: 412px) {
+  .form-group {
+    width: 75%;
+  }
+}

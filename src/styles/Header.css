@@ -10,6 +10,10 @@ h1 {
   color: white !important;
 }
 
+.nav-link {
+  font-size: 25px;
+}
+
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
@@ -35,4 +39,14 @@ h1 {
   height: 120px;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgb(82, 82, 82);
+}
+
+@media (min-width: 768px) {
+  .row {
+    height: 250px;
+  }
+  .naomi-pic {
+    width: 150px;
+    height: 200px;
+  }
 }
