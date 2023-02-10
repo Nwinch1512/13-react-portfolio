@@ -6,14 +6,13 @@ h2 {
 
 .about {
   padding: 30px;
-}
-
-.about {
   background-color: #3e5f6159;
+  color: rgb(82, 82, 82);
 }
 
 .skills-items {
   width: 25%;
+  color: rgb(82, 82, 82);
 }
 
 .listContainer {
