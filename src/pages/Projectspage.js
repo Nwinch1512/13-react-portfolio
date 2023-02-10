@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Projectspage.css";
-import Project from "./Project";
-import Wrapper from "./Wrapper";
+import Project from "../components/Project";
+import Wrapper from "../components/Wrapper";
 import projects from "../projects.json";
 
 class Projectspage extends Component {

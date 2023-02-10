@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/Contactspage.css";
-import Contact from "./Contactinfo.js";
+import Contact from "../components/Contactinfo.js";
 
 class Contactspage extends Component {
   state = {
@@ -32,7 +32,11 @@ class Contactspage extends Component {
         <Contact />
         <form className="form">
           <div className="form-group">
-            <label for="exampleFormControlInput1">First name: </label>
+            <h2>Contact Form</h2>
+            <p className="instruction">
+              Enter your details if you'd like to get in touch
+            </p>
+            <label for="firstName">First name: </label>
             <input
               value={this.state.firstName}
               name="firstName"
@@ -41,9 +45,9 @@ class Contactspage extends Component {
               type="text"
               placeholder="Enter your name"
             />
-          </div>
-          <div className="form-group">
-            <label for="exampleFormControlInput1">Last name: </label>
+            {/* </div>
+          <div className="form-group"> */}
+            <label for="lastName">Last name: </label>
             <input
               value={this.state.lastName}
               name="lastName"
@@ -52,9 +56,9 @@ class Contactspage extends Component {
               type="text"
               placeholder="Enter your last name"
             />
-          </div>
-          <div className="form-group">
-            <label for="exampleFormControlInput1">Email: </label>
+            {/* </div>
+          <div className="form-group"> */}
+            <label for="email">Email: </label>
             <input
               value={this.state.email}
               name="email"
@@ -63,7 +67,12 @@ class Contactspage extends Component {
               type="email"
               placeholder="name@example.com"
             />
-            <button onClick={this.submitForm}>Submit</button>
+            <button
+              onClick={this.submitForm}
+              className="btn btn-primary submit-btn"
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>

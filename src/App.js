@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import NavBar from "./components/Header";
-import Homepage from "./components/Homepage";
-import Projectspage from "./components/Projectspage";
-import Contactspage from "./components/Contactspage";
+import Homepage from "./pages/Homepage";
+import Projectspage from "./pages/Projectspage";
+import Contactspage from "./pages/Contactspage";
 
 function App() {
   return (
