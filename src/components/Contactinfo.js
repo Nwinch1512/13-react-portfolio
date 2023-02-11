@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../styles/Contactspage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
@@ -12,7 +14,6 @@ function Contact() {
             <h2 className="card-title">Contact </h2>
             <div className="contact-info">
               <p className="contact">
-                <FontAwesomeIcon icon={faAddressBook} />
                 Please read my <a href="../CV.pdf">CV</a> for information on my
                 background. Feel free to{" "}
                 <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if
@@ -22,29 +23,20 @@ function Contact() {
                 Links to my GitHub and Linkedin profiles have also been included
                 below for reference.
               </p>
-              <p className="contact">
-                Here is a link to my{" "}
-                <a
-                  classNameName="btn"
-                  href="https://github.com/Nwinch1512"
-                  role="button"
-                >
-                  Github
-                </a>{" "}
-                profile
-              </p>
-
-              <p className="contact">
-                Please refer to my{" "}
-                <a
-                  classNameName="btn"
-                  href="https://www.linkedin.com/in/naomiwinchurch/"
-                  role="button"
-                >
-                  Linkedin
-                </a>{" "}
-                page for more information on my work experience.
-              </p>
+              <a
+                class="btn btn-primary github"
+                href="https://github.com/Nwinch1512"
+                role="button"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>{" "}
+              <a
+                class="btn btn-primary linkedin"
+                href="https://www.linkedin.com/in/naomiwinchurch/"
+                role="button"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
             </div>
           </div>
         </div>
