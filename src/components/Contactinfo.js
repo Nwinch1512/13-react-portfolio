@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../styles/Contactspage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook, faEarDeaf } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
@@ -23,6 +23,13 @@ function Contact() {
                 Links to my GitHub and Linkedin profiles have also been included
                 below for reference.
               </p>
+              <a
+                class="btn btn-primary github"
+                href="mailto: naomi.winchurch@hotmail.co.uk"
+                role="button"
+              >
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
               <a
                 class="btn btn-primary github"
                 href="https://github.com/Nwinch1512"
