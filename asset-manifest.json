@@ -1,21 +1,15 @@
 {
   "files": {
     "main.css": "/13-react-portfolio/static/css/main.43ca064f.css",
-    "main.js": "/13-react-portfolio/static/js/main.3331a377.js",
+    "main.js": "/13-react-portfolio/static/js/main.931001bf.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.d6a81e3a07fbf608e9e2.jpg",
-    "static/media/06-bootstrap-portfolio.jpeg": "/13-react-portfolio/static/media/06-bootstrap-portfolio.4f9eb6d246453b018b06.jpeg",
     "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
-    "static/media/01-meal-planner.jpeg": "/13-react-portfolio/static/media/01-meal-planner.f8866a4821c220bb8345.jpeg",
-    "static/media/02-weather-dashboard.jpeg": "/13-react-portfolio/static/media/02-weather-dashboard.bb160029d2a273d7abb7.jpeg",
-    "static/media/03-work-day-scheduler.jpeg": "/13-react-portfolio/static/media/03-work-day-scheduler.fd0f0dd26c4233f6ed80.jpeg",
-    "static/media/05-password-generator.jpeg": "/13-react-portfolio/static/media/05-password-generator.8444baa89abb9e65a8e6.jpeg",
-    "static/media/04-javascript-quiz.jpeg": "/13-react-portfolio/static/media/04-javascript-quiz.26c2cbf23950c0f5757b.jpeg",
     "index.html": "/13-react-portfolio/index.html",
     "main.43ca064f.css.map": "/13-react-portfolio/static/css/main.43ca064f.css.map",
-    "main.3331a377.js.map": "/13-react-portfolio/static/js/main.3331a377.js.map"
+    "main.931001bf.js.map": "/13-react-portfolio/static/js/main.931001bf.js.map"
   },
   "entrypoints": [
     "static/css/main.43ca064f.css",
-    "static/js/main.3331a377.js"
+    "static/js/main.931001bf.js"
   ]
 }
