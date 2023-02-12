@@ -1,6 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
@@ -31,7 +35,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  Home
+                  <FontAwesomeIcon icon={faHome} />
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -42,7 +46,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  Projects
+                  <FontAwesomeIcon icon={faBriefcase} />
                 </NavLink>
               </li>
 
@@ -54,7 +58,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  Contact
+                  <FontAwesomeIcon icon={faAddressBook} />
                 </NavLink>
               </li>
             </ul>

@@ -29,7 +29,7 @@ function Contact() {
                 role="button"
               >
                 <FontAwesomeIcon icon={faGithub} />
-              </a>{" "}
+              </a>
               <a
                 class="btn btn-primary linkedin"
                 href="https://www.linkedin.com/in/naomiwinchurch/"
