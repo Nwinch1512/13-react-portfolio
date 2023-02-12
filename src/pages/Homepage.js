@@ -1,6 +1,16 @@
 import React from "react";
 import "../styles/Homepage.css";
 
+const jQueryLogo = require("../images/jQueryLogo.png");
+const javaScriptLogo = require("../images/javaScriptLogo.png");
+const agileLogo = require("../images/agileLogo.jfif");
+const bootstrapLogo = require("../images/bootstrapLogo.png");
+const cssLogo = require("../images/cssLogo.png");
+const githubLogo = require("../images/githubLogo.png");
+const htmlLogo = require("../images/htmlLogo.png");
+const microsoftLogo = require("../images/microsoftLogo.jfif");
+const reactLogo = require("../images/reactLogo.png");
+
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 function Homepage() {
   return (
@@ -32,19 +42,37 @@ function Homepage() {
               <div className="card-body" id="skills">
                 <h2 className="card-title">Skills</h2>
                 <div className="listContainer">
-                  <ul className="skills-items">
-                    <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>GitHub</li>
-                  </ul>
-                  <ul className="skills-items">
-                    <li>Bootstrap</li>
-                    <li>React</li>
-                    <li>Agile</li>
-                    <li>Microsoft Excel, Word, Powerpoint</li>
-                  </ul>
+                  {/* <ul className="skills-items"> */}
+                  <img
+                    className="javaScriptLogo"
+                    src={javaScriptLogo}
+                    alt="JavaScript logo"
+                  />
+                  <img
+                    className="jQueryLogo"
+                    src={jQueryLogo}
+                    alt="jQuery logo"
+                  />
+                  <img className="htmlLogo" src={htmlLogo} alt="HTML logo" />
+                  <img className="cssLogo" src={cssLogo} alt="CSS logo" />
+                  <img
+                    className="githubLogo"
+                    src={githubLogo}
+                    alt="GitHub logo"
+                  />
+                  <img
+                    className="bootstrapLogo"
+                    src={bootstrapLogo}
+                    alt="Bootstrap logo"
+                  />
+                  <img className="reactLogo" src={reactLogo} alt="React logo" />
+                  <img className="agileLogo" src={agileLogo} alt="Agile logo" />
+                  <img
+                    className="microsoftLogo"
+                    src={microsoftLogo}
+                    alt="Microsoft Word, Excel and Powerpoint logo"
+                  />
+                  {/* </ul> */}
                 </div>
               </div>
             </div>

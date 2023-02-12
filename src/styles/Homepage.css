@@ -11,7 +11,7 @@ h2 {
 }
 
 .skills-items {
-  width: 25%;
+  width: 100%;
   color: rgb(82, 82, 82);
   padding-top: 20px;
   padding-left: 50px;
@@ -21,6 +21,9 @@ h2 {
   display: flex;
   width: 100%;
   background-color: #3e5f6159;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .cardContainer {
@@ -36,6 +39,23 @@ h2 {
 
 .section h2 {
   text-align: center;
+}
+
+.jQueryLogo,
+.reactLogo,
+.agileLogo,
+.microsoftLogo,
+.htmlLogo {
+  width: 5%;
+  height: 50%;
+}
+
+.javaScriptLogo,
+.cssLogo,
+.githubLogo,
+.bootstrapLogo {
+  width: 5%;
+  height: 50%;
 }
 
 @media (max-width: 412px) {
