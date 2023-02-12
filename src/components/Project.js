@@ -27,7 +27,7 @@ function Project(props) {
       </div>
       <div className="content">
         <ul>
-          <a class="btn btn-primary" href={projectImages[0]} role="button">
+          <a class="btn btn-primary" href={props.url} role="button">
             {props.title}
           </a>
           <a class="btn btn-primary github" href={props.GitHub} role="button">

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Homepage from "./pages/Homepage";
 import Projectspage from "./pages/Projectspage";
@@ -13,8 +13,8 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="/project" element={<Projectspage />} />
-            <Route path="/contact" element={<Contactspage />} />
+            <Route path="project" element={<Projectspage />} />
+            <Route path="contact" element={<Contactspage />} />
           </Routes>
         </div>
       </div>
