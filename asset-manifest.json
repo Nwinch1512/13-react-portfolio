@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/13-react-portfolio/static/css/main.43ca064f.css",
+    "main.js": "/13-react-portfolio/static/js/main.a7bcfe39.js",
+    "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.d6a81e3a07fbf608e9e2.jpg",
+    "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
+    "index.html": "/13-react-portfolio/index.html",
+    "main.43ca064f.css.map": "/13-react-portfolio/static/css/main.43ca064f.css.map",
+    "main.a7bcfe39.js.map": "/13-react-portfolio/static/js/main.a7bcfe39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ca064f.css",
+    "static/js/main.a7bcfe39.js"
+  ]
+}
