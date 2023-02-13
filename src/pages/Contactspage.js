@@ -19,7 +19,9 @@ class Contactspage extends Component {
   submitForm = (event) => {
     event.preventDefault();
 
-    alert(`Hello ${this.state.firstName} ${this.state.lastName}`);
+    alert(
+      `Greetings ${this.state.firstName} ${this.state.lastName} and welcome to my site!`
+    );
     this.setState({
       firstName: "",
       lastName: "",
@@ -45,8 +47,7 @@ class Contactspage extends Component {
               type="text"
               placeholder="Enter your name"
             />
-            {/* </div>
-          <div className="form-group"> */}
+
             <label for="lastName">Last name: </label>
             <input
               value={this.state.lastName}
@@ -56,8 +57,7 @@ class Contactspage extends Component {
               type="text"
               placeholder="Enter your last name"
             />
-            {/* </div>
-          <div className="form-group"> */}
+
             <label for="email">Email: </label>
             <input
               value={this.state.email}

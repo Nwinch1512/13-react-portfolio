@@ -28,21 +28,21 @@ function Contact() {
                 href="mailto: naomi.winchurch@hotmail.co.uk"
                 role="button"
               >
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faEnvelope} className="emailBtn" />
               </a>
               <a
                 class="btn btn-primary github"
                 href="https://github.com/Nwinch1512"
                 role="button"
               >
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithub} className="githubBtn" />
               </a>
               <a
                 class="btn btn-primary linkedin"
                 href="https://www.linkedin.com/in/naomiwinchurch/"
                 role="button"
               >
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedin} className="linkedinBtn" />
               </a>
             </div>
           </div>
