@@ -1,7 +1,9 @@
 import React from "react";
+import Tooltip from "rc-tooltip";
 import "../styles/Project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import "rc-tooltip/assets/bootstrap.css";
 
 function Project(props) {
   return (
@@ -11,15 +13,33 @@ function Project(props) {
       </div>
       <div className="content">
         <ul>
-          <a class="btn btn-primary" href={props.url} role="button">
-            {props.title}
+          <a
+            className="btn btn-primary"
+            href={props.url}
+            dataToggle="tooltip"
+            role="button"
+          >
+            <Tooltip
+              placement="bottom"
+              overlay={<span>Click here to access the deployed project</span>}
+            >
+              <span>{props.title}</span>
+            </Tooltip>
           </a>
-          <a class="btn btn-primary github" href={props.GitHub} role="button">
-            <FontAwesomeIcon icon={faGithub} />
+          <a
+            className="btn btn-primary githubRepo"
+            href={props.GitHub}
+            role="button"
+          >
+            <Tooltip
+              placement="bottom"
+              overlay={<span>Click here to access the repo</span>}
+            >
+              <span>
+                <FontAwesomeIcon icon={faGithub} />
+              </span>
+            </Tooltip>
           </a>
-          {/* <a class="btn btn-primary" href= role="button">
-            GitHub repo
-          </a> */}
         </ul>
       </div>
     </div>

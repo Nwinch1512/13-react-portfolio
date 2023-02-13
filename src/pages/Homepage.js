@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Homepage.css";
 
+const bgImg = require("../images/pexels-magda-ehlers-2861751.jpg");
+
 const jQueryLogo = require("../images/jQueryLogo.png");
 const javaScriptLogo = require("../images/javaScriptLogo.png");
 const agileLogo = require("../images/agileLogo.jfif");
@@ -42,7 +44,6 @@ function Homepage() {
               <div className="card-body" id="skills">
                 <h2 className="card-title">Skills</h2>
                 <div className="listContainer">
-                  {/* <ul className="skills-items"> */}
                   <img
                     className="javaScriptLogo"
                     src={javaScriptLogo}
@@ -72,7 +73,6 @@ function Homepage() {
                     src={microsoftLogo}
                     alt="Microsoft Word, Excel and Powerpoint logo"
                   />
-                  {/* </ul> */}
                 </div>
               </div>
             </div>

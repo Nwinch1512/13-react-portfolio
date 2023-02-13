@@ -35,7 +35,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  <FontAwesomeIcon icon={faHome} />
+                  <FontAwesomeIcon icon={faHome} className="icon" />
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -46,7 +46,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  <FontAwesomeIcon icon={faBriefcase} />
+                  <FontAwesomeIcon icon={faBriefcase} className="icon" />
                 </NavLink>
               </li>
 
@@ -58,7 +58,7 @@ function Header() {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  <FontAwesomeIcon icon={faAddressBook} />
+                  <FontAwesomeIcon icon={faAddressBook} className="icon" />
                 </NavLink>
               </li>
             </ul>
@@ -74,8 +74,8 @@ function Header() {
             <div className="col">
               <h1>Naomi Winchurch</h1>
               <p className="lead custom-hero-text">
-                "Proactive, organised, great problem solver, keen to master web
-                development"
+                "Proactive, organised, great problem solver, with a solid
+                foundation in web development"
               </p>
             </div>
             <div className="col-sm-2">
