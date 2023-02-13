@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 13-react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This repo contains all files related to the week 13 react portfolio project.
 
-In the project directory, you can run:
+I was motived to rebuild my portfolio website in React to enable me to learn how to build applications in React. This website showcases projects I've worked on to potential employers and highlights skills I've developed over the course of the bootcamp. The website includes three pages: homepage, projects page and contacts page. The homepage offers a brief description of my skills and experience. The projects page includes links to six deployed projects in addition to their supporting repos. The contacts page provides information on how to contact me, and links to my GitHub and Linkedin profiles. It also includes a form with an event handler that greets the user. In addition to applying React, this project enabled me to practice importing font awesome icons, Bootstrap and CSS.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+N/A
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+This website has been set up to showcase my portfolio. This would be useful for potential employers or anyone interested in learning more about my experience. The website has been developed to display accurately on mobile phones and desktops.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please see below for a screenshot of the homepage in desktop view.
+![Homepage - desktop](/images/Team-generator-desktop-view.jpeg)
 
-### `npm run build`
+Please see below for a screenshot of the homepage in mobile view.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Homepage - mobile](/images/Team-generator-mobile-view.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please see below for a screenshot of the projects in desktop view.
+![Projects - desktop](/images/Team-generator-desktop-view.jpeg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please see below for a screenshot of the projects in mobile view.
 
-### `npm run eject`
+![Projects - mobile](/images/Team-generator-mobile-view.jpeg)
+Please refer to the link below to access the webpage:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Please see below for a screenshot of the contacts page in desktop view.
+![Homepage - desktop](/images/Team-generator-desktop-view.jpeg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Please see below for a screenshot of the contacts page in mobile view.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Homepage - mobile](/images/Team-generator-mobile-view.jpeg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Portfolio website](https://nwinch1512.github.io/13-react-portfolio/#/ "Visit Naomi Winchurch portfolio website")
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This application used Bootstrap and font awesome icons.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+Please refer to the LICENSE in the repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tests
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+N/A
