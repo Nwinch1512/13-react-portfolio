@@ -10,13 +10,6 @@ h2 {
 
 body {
   background-color: #000f1059;
-  /* background-size: cover;
-  height: calc(100vh - 25px);
-  display: flex;
-  z-index: -1;
-  background-repeat: "repeat-y";
-  /* background-size: "contain"; */
-  /*position: absolute; */
 }
 
 .about {
@@ -28,8 +21,8 @@ body {
 .skills-items {
   width: 100%;
   color: rgb(82, 82, 82);
-  padding-top: 20px;
-  padding-left: 50px;
+  /* padding-top: 20px;
+  padding-left: 50px; */
 }
 
 .listContainer {
@@ -42,7 +35,6 @@ body {
 }
 
 .cardContainer {
-  padding: 50px;
   line-height: 2rem;
 }
 
@@ -58,6 +50,9 @@ body {
 
 .card-body {
   background: white;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .agileLogo,
@@ -67,11 +62,8 @@ body {
   width: 10%;
   height: 50%;
 }
-.reactLogo {
-  width: 5%;
-  height: 50%;
-}
 
+.reactLogo,
 .javaScriptLogo,
 .cssLogo,
 .githubLogo,

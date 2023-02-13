@@ -1,3 +1,18 @@
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  margin-right: 50px;
+}
+
+.card-body-contact {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+}
+
 .github,
 .linkedin {
   font-size: 50px;
@@ -6,7 +21,6 @@
 .form-group {
   margin: 20px 50px;
   color: rgb(82, 82, 82);
-  width: 25%;
   background-color: white;
   padding-bottom: 10px;
 }
@@ -37,10 +51,23 @@ label,
 .form-control:hover {
   background-color: #000f1059;
   color: white !important;
+  border-radius: 3px;
+  padding: 2px;
 }
 
-@media (max-width: 412px) {
+/* @media (max-width: 412px) {
   .form-group {
-    width: 75%;
+    width: 75%; 
+  }
+} */
+
+@media (max-width: 412px) {
+  .contact-container {
+    display: block;
+  }
+  .card-body-contact {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
   }
 }

@@ -30,50 +30,50 @@ class Contactspage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="contact-container">
         <Contact />
-        <form className="form">
-          <div className="form-group">
-            <h2>Contact Form</h2>
-            <p className="instruction">
-              Enter your details if you'd like to get in touch
-            </p>
-            <label for="firstName">First name: </label>
-            <input
-              value={this.state.firstName}
-              name="firstName"
-              className="form-control"
-              onChange={this.inputChange}
-              type="text"
-              placeholder="Enter your name"
-            />
+        <form className="form card-body-contact col-lg-5 col-md-5 col-sm-12">
+          {/* <div className="form-group card-body"> */}
+          <h2>Contact Form</h2>
+          <p className="instruction">
+            Enter your details if you'd like to get in touch
+          </p>
+          <label for="firstName">First name: </label>
+          <input
+            value={this.state.firstName}
+            name="firstName"
+            className="form-control"
+            onChange={this.inputChange}
+            type="text"
+            placeholder="Enter your name"
+          />
 
-            <label for="lastName">Last name: </label>
-            <input
-              value={this.state.lastName}
-              name="lastName"
-              className="form-control"
-              onChange={this.inputChange}
-              type="text"
-              placeholder="Enter your last name"
-            />
+          <label for="lastName">Last name: </label>
+          <input
+            value={this.state.lastName}
+            name="lastName"
+            className="form-control"
+            onChange={this.inputChange}
+            type="text"
+            placeholder="Enter your last name"
+          />
 
-            <label for="email">Email: </label>
-            <input
-              value={this.state.email}
-              name="email"
-              className="form-control"
-              onChange={this.inputChange}
-              type="email"
-              placeholder="name@example.com"
-            />
-            <button
-              onClick={this.submitForm}
-              className="btn btn-primary submit-btn"
-            >
-              Submit
-            </button>
-          </div>
+          <label for="email">Email: </label>
+          <input
+            value={this.state.email}
+            name="email"
+            className="form-control"
+            onChange={this.inputChange}
+            type="email"
+            placeholder="name@example.com"
+          />
+          <button
+            onClick={this.submitForm}
+            className="btn btn-primary submit-btn"
+          >
+            Submit
+          </button>
+          {/* </div> */}
         </form>
       </div>
     );

@@ -1,8 +1,10 @@
 /* Need to update styling as taken from demo!!! */
-h2 {
+.project.card-title {
   padding-bottom: 10px;
   background-color: rgb(82, 82, 82);
   color: white;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .wrapper {
@@ -16,4 +18,5 @@ h2 {
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  margin-left: 50px;
 }
