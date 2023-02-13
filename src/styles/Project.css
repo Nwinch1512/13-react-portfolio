@@ -50,5 +50,5 @@ img {
 .btn:hover {
   background-color: rgb(82, 82, 82) !important;
   color: white !important;
-  border: 2px solid white !important;
+  border: 5px solid white !important;
 }
