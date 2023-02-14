@@ -23,7 +23,6 @@ img {
   overflow: hidden;
   text-align: center;
   background-color: white;
-  display: flexbox;
 }
 
 .card > .content {

@@ -26,7 +26,7 @@ function Homepage() {
                 <p className="about">
                   Hello and welcome to my portfolio page! I have extensive
                   analysis and project management experience in both the public
-                  and private sector, as per my <a href="../CV.pdf">CV</a>. I'm
+                  and private sector, as per my <a href="CV.pdf">CV</a>. I'm
                   highly organised and a great problem solver. I enjoy working
                   alone and in a team. I'm currently learning web developer
                   skills through the University of Birmingham front end

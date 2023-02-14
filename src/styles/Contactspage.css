@@ -55,12 +55,6 @@ label,
   padding: 2px;
 }
 
-/* @media (max-width: 412px) {
-  .form-group {
-    width: 75%; 
-  }
-} */
-
 @media (max-width: 412px) {
   .contact-container {
     display: block;
