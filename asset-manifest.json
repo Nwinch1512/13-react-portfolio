@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/13-react-portfolio/static/css/main.43fe38d3.css",
+    "main.css": "/13-react-portfolio/static/css/main.cddc57f6.css",
     "main.js": "/13-react-portfolio/static/js/main.0f4593bf.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.f1aed02d5c5f2ed99b0d.jpg",
     "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
@@ -14,11 +14,11 @@
     "static/media/microsoftLogo.jfif": "/13-react-portfolio/static/media/microsoftLogo.d1bafe753b3348e25488.jfif",
     "static/media/agileLogo.jfif": "/13-react-portfolio/static/media/agileLogo.dd6a7bba862b6f14f827.jfif",
     "index.html": "/13-react-portfolio/index.html",
-    "main.43fe38d3.css.map": "/13-react-portfolio/static/css/main.43fe38d3.css.map",
+    "main.cddc57f6.css.map": "/13-react-portfolio/static/css/main.cddc57f6.css.map",
     "main.0f4593bf.js.map": "/13-react-portfolio/static/js/main.0f4593bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.43fe38d3.css",
+    "static/css/main.cddc57f6.css",
     "static/js/main.0f4593bf.js"
   ]
 }
