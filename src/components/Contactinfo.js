@@ -15,33 +15,35 @@ function Contact() {
             Please read my <a href="CV.pdf">CV</a> for information on my
             background. Feel free to{" "}
             <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if you
-            have any questions or fill out the contact form below.
+            have any questions or fill out the contact form.
           </p>
           <p className="contact">
             Links to my GitHub and Linkedin profiles have also been included
             below for reference.
           </p>
-          <a
-            className="btn btn-primary github"
-            href="mailto: naomi.winchurch@hotmail.co.uk"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faEnvelope} className="emailBtn" />
-          </a>
-          <a
-            className="btn btn-primary github"
-            href="https://github.com/Nwinch1512"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faGithub} className="githubBtn" />
-          </a>
-          <a
-            className="btn btn-primary linkedin"
-            href="https://www.linkedin.com/in/naomiwinchurch/"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="linkedinBtn" />
-          </a>
+          <div className="contact-icon-container">
+            <a
+              className="btn btn-primary github"
+              href="mailto: naomi.winchurch@hotmail.co.uk"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faEnvelope} className="emailBtn" />
+            </a>
+            <a
+              className="btn btn-primary github"
+              href="https://github.com/Nwinch1512"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faGithub} className="githubBtn" />
+            </a>
+            <a
+              className="btn btn-primary linkedin"
+              href="https://www.linkedin.com/in/naomiwinchurch/"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="linkedinBtn" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

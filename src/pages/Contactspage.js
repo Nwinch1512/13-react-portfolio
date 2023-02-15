@@ -34,7 +34,7 @@ class Contactspage extends Component {
         <Contact />
         <form className="form card-body-contact col-lg-5 col-md-5 col-sm-12">
           {/* <div className="form-group card-body"> */}
-          <h2>Contact Form</h2>
+          <h2 className="heading">Contact Form</h2>
           <p className="instruction">
             Enter your details if you'd like to get in touch
           </p>

@@ -3,6 +3,10 @@
   justify-content: space-evenly;
 }
 
+.instruction {
+  padding-top: 20px;
+}
+
 .form {
   margin-right: 50px;
 }
@@ -11,6 +15,7 @@
   margin-top: 50px;
   margin-left: 50px;
   background-color: white;
+  padding: 0px;
 }
 
 .github,
