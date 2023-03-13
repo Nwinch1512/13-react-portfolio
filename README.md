@@ -8,7 +8,7 @@ I was motived to rebuild my portfolio website in React to learn how to use this 
 
 ## Installation
 
-N/A
+To redeploy this website, you need to enter npm run deploy into the terminal.
 
 ## Usage
 
