@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/13-react-portfolio/static/css/main.cddc57f6.css",
-    "main.js": "/13-react-portfolio/static/js/main.0f4593bf.js",
+    "main.css": "/13-react-portfolio/static/css/main.a584f51e.css",
+    "main.js": "/13-react-portfolio/static/js/main.93d0dd3d.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.f1aed02d5c5f2ed99b0d.jpg",
+    "static/media/pexels-henry-&-co-2341290.jpg": "/13-react-portfolio/static/media/pexels-henry-&-co-2341290.3801279005bf6ec61653.jpg",
     "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
     "static/media/reactLogo.png": "/13-react-portfolio/static/media/reactLogo.fb59dfc6bb1bac6b0ad0.png",
     "static/media/githubLogo.png": "/13-react-portfolio/static/media/githubLogo.00c601f1724a126c1cbd.png",
@@ -14,11 +15,11 @@
     "static/media/microsoftLogo.jfif": "/13-react-portfolio/static/media/microsoftLogo.d1bafe753b3348e25488.jfif",
     "static/media/agileLogo.jfif": "/13-react-portfolio/static/media/agileLogo.dd6a7bba862b6f14f827.jfif",
     "index.html": "/13-react-portfolio/index.html",
-    "main.cddc57f6.css.map": "/13-react-portfolio/static/css/main.cddc57f6.css.map",
-    "main.0f4593bf.js.map": "/13-react-portfolio/static/js/main.0f4593bf.js.map"
+    "main.a584f51e.css.map": "/13-react-portfolio/static/css/main.a584f51e.css.map",
+    "main.93d0dd3d.js.map": "/13-react-portfolio/static/js/main.93d0dd3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cddc57f6.css",
-    "static/js/main.0f4593bf.js"
+    "static/css/main.a584f51e.css",
+    "static/js/main.93d0dd3d.js"
   ]
 }
