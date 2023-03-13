@@ -14,7 +14,7 @@ body {
 
 .about {
   padding: 30px;
-  background: white;
+  /* background: white; */
   color: rgb(82, 82, 82);
 }
 
@@ -28,7 +28,7 @@ body {
 .listContainer {
   display: flex;
   width: 100%;
-  background-color: white;
+  /* background-color: white; */
   padding-top: 20px;
   justify-content: space-evenly;
   align-items: center;

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Homepage.css";
 
+const marbleImg = require("../images/pexels-henry-&-co-2341290.jpg");
+
 const jQueryLogo = require("../images/jQueryLogo.png");
 const javaScriptLogo = require("../images/javaScriptLogo.png");
 const agileLogo = require("../images/agileLogo.jfif");
@@ -21,7 +23,11 @@ function Homepage() {
             style={{ zIndex: 1, opacity: 1 }}
           >
             <div className="card-1">
-              <div className="card-body" id="about">
+              <div
+                className="card-body"
+                id="about"
+                style={{ backgroundImage: "url(" + marbleImg + ")" }}
+              >
                 <h2 className="card-title">About Me</h2>
                 <p className="about">
                   Hello and welcome to my portfolio page! I have extensive
@@ -41,7 +47,11 @@ function Homepage() {
 
           <div className="cardContainer col-lg-12 col-md-12 col-sm-3">
             <div className="card-2">
-              <div className="card-body" id="skills">
+              <div
+                className="card-body"
+                id="skills"
+                style={{ backgroundImage: "url(" + marbleImg + ")" }}
+              >
                 <h2 className="card-title">Skills</h2>
                 <div className="listContainer">
                   <img
