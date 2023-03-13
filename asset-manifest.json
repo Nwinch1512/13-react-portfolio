@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/13-react-portfolio/static/css/main.a584f51e.css",
-    "main.js": "/13-react-portfolio/static/js/main.93d0dd3d.js",
+    "main.js": "/13-react-portfolio/static/js/main.9788aded.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.f1aed02d5c5f2ed99b0d.jpg",
     "static/media/pexels-henry-&-co-2341290.jpg": "/13-react-portfolio/static/media/pexels-henry-&-co-2341290.3801279005bf6ec61653.jpg",
     "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
@@ -16,10 +16,10 @@
     "static/media/agileLogo.jfif": "/13-react-portfolio/static/media/agileLogo.dd6a7bba862b6f14f827.jfif",
     "index.html": "/13-react-portfolio/index.html",
     "main.a584f51e.css.map": "/13-react-portfolio/static/css/main.a584f51e.css.map",
-    "main.93d0dd3d.js.map": "/13-react-portfolio/static/js/main.93d0dd3d.js.map"
+    "main.9788aded.js.map": "/13-react-portfolio/static/js/main.9788aded.js.map"
   },
   "entrypoints": [
     "static/css/main.a584f51e.css",
-    "static/js/main.93d0dd3d.js"
+    "static/js/main.9788aded.js"
   ]
 }
