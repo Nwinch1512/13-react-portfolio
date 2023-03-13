@@ -12,8 +12,8 @@ function Contact() {
         <h2 className="card-title">Contact </h2>
         <div className="contact-info">
           <p className="contact">
-            Please read my <a href="CV.pdf">CV</a> for information on my
-            background. Feel free to{" "}
+            Please read my <a href="CV web developer.pdf">CV</a> for information
+            on my background. Feel free to{" "}
             <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if you
             have any questions or fill out the contact form.
           </p>

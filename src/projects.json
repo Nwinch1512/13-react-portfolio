@@ -1,5 +1,12 @@
 [
   {
+    "id": 7,
+    "title": "Miix Music Recommendations",
+    "image": "images/07-miix-desktop-landing-page-view.jpeg",
+    "url": "https://deft-haupia-213070.netlify.app/",
+    "GitHub": "https://github.com/Nwinch1512/14-miix"
+  },
+  {
     "id": 1,
     "title": "Meal Planner",
     "image": "images/01-meal-planner.jpeg",
