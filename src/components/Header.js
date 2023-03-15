@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import logo from "../images/NW-logo.png";
 
 const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
@@ -26,6 +27,14 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <a className="navbar-brand spacer" href="/">
+              <img
+                src={logo}
+                width="60"
+                className="d-inline-block align-top"
+                alt="NW logo"
+              />
+            </a>
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink

@@ -9,19 +9,21 @@ import Contactspage from "./pages/Contactspage";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
+    <div>
+      <Router>
         <div>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="project" element={<Projectspage />} />
-            <Route path="contact" element={<Contactspage />} />
-          </Routes>
+          <Header />
+          <div>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="project" element={<Projectspage />} />
+              <Route path="contact" element={<Contactspage />} />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </Router>
       <Footer />
-    </Router>
+    </div>
   );
 }
 
