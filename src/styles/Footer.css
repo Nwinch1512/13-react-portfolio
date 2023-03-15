@@ -1,6 +1,26 @@
 .footer {
   background-color: #582c4d !important;
   margin-top: 50px;
-  /* position: absolute; */
-  /* bottom: 0; */
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-email,
+.btn-github,
+.btn-linkedin {
+  font-size: 40px;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  color: white;
+}
+
+.btn-email:hover,
+.btn-github:hover,
+.btn-linkedin:hover {
+  background-color: white !important;
+  color: rgb(82, 82, 82) !important;
+  transition: 0.05s;
+  border-radius: 3px;
+  padding: 3px;
 }
