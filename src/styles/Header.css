@@ -6,6 +6,10 @@
   padding-left: 10px !important;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .nav-link,
 h1 {
   color: white !important;
