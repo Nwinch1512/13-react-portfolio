@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Homepage.css";
 
 const marbleImg = require("../images/pexels-henry-&-co-2341290.jpg");
+const greyWoodImg = require("../images/pexels-photo-4097157.jpeg");
 
 const jQueryLogo = require("../images/jQueryLogo.png");
 const javaScriptLogo = require("../images/javaScriptLogo.png");

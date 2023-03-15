@@ -14,7 +14,7 @@ img {
   width: 325px;
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
   text-align: left;
-
+  margin-bottom: 30px !important;
   color: rgb(82, 82, 82);
 }
 

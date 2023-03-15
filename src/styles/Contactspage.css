@@ -16,6 +16,7 @@
   margin-left: 50px;
   background-color: white;
   padding: 0px;
+  box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
 }
 
 .github,
@@ -28,6 +29,7 @@
   color: rgb(82, 82, 82);
   background-color: white;
   padding-bottom: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
 }
 label,
 .instruction {

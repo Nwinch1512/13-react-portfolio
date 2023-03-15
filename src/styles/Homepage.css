@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h2 {
@@ -48,11 +50,17 @@ body {
   text-align: center;
 }
 
+.card-1,
+.card-2 {
+  box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
+  margin-left: 0px !important;
+}
+
 .card-body {
   background: white;
   margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
   padding: 0;
 }
 

@@ -5,9 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "rc-tooltip/assets/bootstrap.css";
 
+const greyWoodImg = require("../images/pexels-photo-3575827-brick-slate.jpeg");
+
 function Project(props) {
   return (
-    <div className="card">
+    <div
+      className="card"
+      style={{ backgroundImage: "url(" + greyWoodImg + ")" }}
+    >
       <div className="img-container">
         <img alt={props.title} src={props.image} />
       </div>
