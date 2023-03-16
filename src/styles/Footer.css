@@ -24,3 +24,9 @@
   border-radius: 3px;
   padding: 3px;
 }
+
+@media (min-width: 1980px) {
+  .footer {
+    padding-bottom: 175px !important;
+  }
+}

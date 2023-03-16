@@ -7,7 +7,7 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import logo from "../images/NW-logo.png";
 
-const profileImg = require("../images/Bootcamp_profile_pic.jpeg");
+const profileImg = require("../images/bw-profile.png");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
 
 function Header() {

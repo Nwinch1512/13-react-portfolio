@@ -6,13 +6,15 @@ body {
 
 h2 {
   padding: 30px;
-  background-color: rgb(82, 82, 82);
+  /* background-color: rgb(82, 82, 82); */
   /* background-color: #582c4d; */
-  color: white;
+  color: rgb(82, 82, 82);
+  font-weight: bold;
 }
 
 body {
-  background-color: #000f1059;
+  /* background-color: #000f1059; */
+  background-color: rgb(161, 160, 160);
 }
 
 .about {
@@ -55,12 +57,14 @@ body {
 .card-2 {
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
   margin-left: 0px !important;
+  border-radius: 5px !important;
 }
 
 .card-body {
   background: white;
   margin-top: 50px;
   padding: 0;
+  border-radius: 5px !important;
 }
 
 .agileLogo,
@@ -80,7 +84,7 @@ body {
   height: 50%;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 458px) {
   .listContainer {
     display: block;
     justify-content: left;

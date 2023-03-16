@@ -62,3 +62,10 @@ h1 {
     height: 200px;
   }
 }
+
+@media (min-width: 1980px) {
+  .custom-nav {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
+}

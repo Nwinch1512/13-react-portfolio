@@ -38,10 +38,10 @@ function Homepage() {
                 a great problem solver. I enjoy working alone and in a team.
                 I've just completed the University of Birmingham front end web
                 development bootcamp in partnership with edx and am pround to
-                have gotten an A. I'm excited to develop my technical skills and
-                take on new challenges. In my spare time I enjoy: weightlifting,
-                jogging, reading, playing board games with my family, cooking
-                and drawing.
+                have achieved an A grade. I'm excited to develop my technical
+                skills and take on new challenges. In my spare time I enjoy:
+                weightlifting, jogging, reading, playing board games with my
+                family, cooking and drawing.
               </p>
             </div>
           </div>

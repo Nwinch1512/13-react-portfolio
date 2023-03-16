@@ -3,6 +3,10 @@
   justify-content: space-evenly;
 }
 
+.heading {
+  font-weight: bold;
+}
+
 .instruction {
   padding-top: 20px;
 }
@@ -17,6 +21,7 @@
   background-color: white;
   padding: 0px;
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
+  border-radius: 5px;
 }
 
 .github,
@@ -62,11 +67,11 @@ label,
   padding: 2px;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 458px) {
   .contact-container {
     display: block;
   }
-  .card-body-contact {
+  .form.card-body-contact {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
