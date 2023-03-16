@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/13-react-portfolio/static/css/main.c96d951f.css",
-    "main.js": "/13-react-portfolio/static/js/main.cdabaad8.js",
+    "main.css": "/13-react-portfolio/static/css/main.9551d0b1.css",
+    "main.js": "/13-react-portfolio/static/js/main.d9db2eec.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.f1aed02d5c5f2ed99b0d.jpg",
     "static/media/pexels-henry-&-co-2341290.jpg": "/13-react-portfolio/static/media/pexels-henry-&-co-2341290.3801279005bf6ec61653.jpg",
-    "static/media/Bootcamp_profile_pic.jpeg": "/13-react-portfolio/static/media/Bootcamp_profile_pic.617d3401e8591fa5f7cd.jpeg",
     "static/media/pexels-photo-3575827-brick-slate.jpeg": "/13-react-portfolio/static/media/pexels-photo-3575827-brick-slate.6ee448f2b11550bf562a.jpeg",
     "static/media/pexels-photo-4097157.jpeg": "/13-react-portfolio/static/media/pexels-photo-4097157.37d7fc795cd20f501bba.jpeg",
     "static/media/reactLogo.png": "/13-react-portfolio/static/media/reactLogo.fb59dfc6bb1bac6b0ad0.png",
@@ -12,16 +11,17 @@
     "static/media/javaScriptLogo.png": "/13-react-portfolio/static/media/javaScriptLogo.92169892ea013a5154bd.png",
     "static/media/jQueryLogo.png": "/13-react-portfolio/static/media/jQueryLogo.3e194a11161affeea285.png",
     "static/media/cssLogo.png": "/13-react-portfolio/static/media/cssLogo.19c5df0812bdcc6cb1a7.png",
+    "static/media/bw-profile.png": "/13-react-portfolio/static/media/bw-profile.a40d4ea5bef2443f8595.png",
     "static/media/bootstrapLogo.png": "/13-react-portfolio/static/media/bootstrapLogo.1f0e5009528cca1d388f.png",
     "static/media/htmlLogo.png": "/13-react-portfolio/static/media/htmlLogo.c4df12cdedc423a7b560.png",
     "static/media/microsoftLogo.jfif": "/13-react-portfolio/static/media/microsoftLogo.d1bafe753b3348e25488.jfif",
     "static/media/agileLogo.jfif": "/13-react-portfolio/static/media/agileLogo.dd6a7bba862b6f14f827.jfif",
     "index.html": "/13-react-portfolio/index.html",
-    "main.c96d951f.css.map": "/13-react-portfolio/static/css/main.c96d951f.css.map",
-    "main.cdabaad8.js.map": "/13-react-portfolio/static/js/main.cdabaad8.js.map"
+    "main.9551d0b1.css.map": "/13-react-portfolio/static/css/main.9551d0b1.css.map",
+    "main.d9db2eec.js.map": "/13-react-portfolio/static/js/main.d9db2eec.js.map"
   },
   "entrypoints": [
-    "static/css/main.c96d951f.css",
-    "static/js/main.cdabaad8.js"
+    "static/css/main.9551d0b1.css",
+    "static/js/main.d9db2eec.js"
   ]
 }
