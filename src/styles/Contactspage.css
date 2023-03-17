@@ -30,7 +30,8 @@
 
 .github,
 .linkedin {
-  font-size: 50px;
+  font-size: 25px;
+  margin-left: 25px;
 }
 
 .contact-icon-container {
@@ -83,5 +84,13 @@ label,
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
+  }
+  .card-body-contact {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .github,
+  .linkedin {
+    margin-left: 10px;
   }
 }

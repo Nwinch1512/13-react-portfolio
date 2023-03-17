@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Homepage.css";
-import Footer from "../components/Footer";
 import logo from "../images/NW-logo-with-colour.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +15,7 @@ const bootstrapLogo = require("../images/bootstrapLogo.png");
 const cssLogo = require("../images/cssLogo.png");
 const githubLogo = require("../images/githubLogo.png");
 const htmlLogo = require("../images/htmlLogo.png");
-const microsoftLogo = require("../images/microsoftLogo.jfif");
+const microsoftLogo = require("../images/296-2963605_logo-microsoft-office-png-transparent-png.png");
 const reactLogo = require("../images/reactLogo.png");
 
 function Homepage() {
@@ -24,7 +23,7 @@ function Homepage() {
     <div className="container-fluid">
       <section className="aboutSection">
         <div
-          className="cardContainer col-lg-12 col-md-12 col-sm-3"
+          className="cardContainer col-lg-9 col-md-9 col-sm-12"
           style={{ zIndex: 1, opacity: 1 }}
         >
           <div className="card-1">
@@ -60,7 +59,7 @@ function Homepage() {
           </div>
         </div>
 
-        <div className="cardContainer col-lg-12 col-md-12 col-sm-3">
+        <div className="cardContainer col-lg-9 col-md-9 col-sm-12">
           <div className="card-2">
             <div
               className="card-body"
