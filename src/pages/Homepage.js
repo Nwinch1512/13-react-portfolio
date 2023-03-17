@@ -76,11 +76,7 @@ function Homepage() {
                   src={javaScriptLogo}
                   alt="JavaScript logo"
                 />
-                <img
-                  className="jQueryLogo"
-                  src={jQueryLogo}
-                  alt="jQuery logo"
-                />
+
                 <img className="htmlLogo" src={htmlLogo} alt="HTML logo" />
                 <img className="cssLogo" src={cssLogo} alt="CSS logo" />
                 <img
@@ -95,6 +91,11 @@ function Homepage() {
                 />
                 <img className="reactLogo" src={reactLogo} alt="React logo" />
                 <img className="agileLogo" src={agileLogo} alt="Agile logo" />
+                <img
+                  className="jQueryLogo"
+                  src={jQueryLogo}
+                  alt="jQuery logo"
+                />
                 <img
                   className="microsoftLogo"
                   src={microsoftLogo}

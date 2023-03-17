@@ -124,5 +124,17 @@ body {
 
   .listContainer {
     justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+
+  .bootstrapLogo,
+  .reactLogo {
+    margin-left: 30px;
+  }
+
+  .microsoftLogo {
+    margin-left: 50px;
   }
 }
