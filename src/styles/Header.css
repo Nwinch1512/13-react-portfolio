@@ -65,6 +65,12 @@ h1 {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .row {
     height: 250px;

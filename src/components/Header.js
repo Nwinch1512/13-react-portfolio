@@ -15,6 +15,7 @@ function Header() {
     <header>
       <section className="navContainer">
         <nav className="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+          {" "}
           <button
             className="navbar-toggler"
             type="button"
@@ -35,6 +36,7 @@ function Header() {
                 alt="NW logo"
               />
             </a>
+
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink
