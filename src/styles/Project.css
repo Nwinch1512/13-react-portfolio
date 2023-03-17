@@ -4,14 +4,18 @@ img {
   align-items: center;
 }
 
+.cardContainer {
+  line-height: 1rem;
+}
+
 .card {
   background: rgb(82, 82, 82);
   border: none;
   border-radius: 10px;
-  height: 350px;
+  height: 540px;
   /* margin: 10px; */
   position: relative;
-  width: 350px;
+  width: 400px;
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
   text-align: left;
   margin-bottom: 30px !important;
@@ -23,12 +27,13 @@ img {
   /* overflow: hidden; */
   text-align: center;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .card > .content {
   /* margin-top: 10px; */
   font-size: 15px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .card > .content > ul {
@@ -36,10 +41,26 @@ img {
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
+  justify-content: left !important;
 }
 
 .card > .content > ul > li {
   margin-top: 20px;
+}
+
+p.summary {
+  justify-content: left !important;
+  padding: 20px;
+  line-height: 1.5rem;
+}
+
+.deploymentLink {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #582c4d;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .btn {
@@ -47,6 +68,12 @@ img {
   color: white;
   border: none;
   margin: 0.5rem;
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
+  /* justify-content: center;
+  text-align: center;
+  margin-right: 100px; */
   /* padding: 10px !important; */
 }
 
@@ -54,4 +81,12 @@ img {
   background-color: rgb(82, 82, 82) !important;
   color: white !important;
   /* border: 5px solid white !important; */
+}
+
+.deploymentLink:hover {
+  background-color: rgb(82, 82, 82) !important;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white !important;
 }

@@ -35,7 +35,7 @@ function Homepage() {
               <h2 className="card-title">
                 <img
                   src={logo}
-                  width="30"
+                  width="35"
                   className="d-inline-block align-top NWlogoAbout"
                   alt="NW logo"
                 />

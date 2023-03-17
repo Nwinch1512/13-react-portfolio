@@ -17,7 +17,7 @@ function Contact() {
             Please read my <a href="CV web developer.pdf">CV</a> for information
             on my background. Feel free to{" "}
             <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if you
-            have any questions or fill out the contact form.
+            have any questions.
           </p>
           <p className="contact">
             Links to my GitHub and Linkedin profiles have also been included

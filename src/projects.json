@@ -4,48 +4,55 @@
     "title": "Miix Music",
     "image": "images/07-miix-desktop-landing-page-view.jpeg",
     "url": "https://deft-haupia-213070.netlify.app/",
-    "GitHub": "https://github.com/Nwinch1512/14-miix"
+    "GitHub": "https://github.com/Nwinch1512/14-miix",
+    "summary": "Miix recommends a playlist based on the music listening history of a group of friends/ family members.  It runs a series of get and post requests to Spotify web API endpoints - utilising React JS, and Bootstrap.  We adopted agile methodology for this team project."
   },
   {
     "id": 1,
     "title": "Meal Planner",
     "image": "images/01-meal-planner.jpeg",
     "url": "https://nwinch1512.github.io/09-weekly-meal-planner/",
-    "GitHub": "https://github.com/Nwinch1512/09-weekly-meal-planner"
+    "GitHub": "https://github.com/Nwinch1512/09-weekly-meal-planner",
+    "summary": "Meal Planner inspires people to cook by empowering them to tailor recipe searches.  It’s inclusive to those with allergies or following restricted diets.  It was built using JavaScript, CSS, HTML and bootstrap.  The Spoonacular API and agile methodology were utilised for this team project."
   },
   {
     "id": 2,
     "title": "Weather Dashboard",
     "image": "images/02-weather-dashboard.jpeg",
     "url": "https://nwinch1512.github.io/08-weather-dashboard//",
-    "GitHub": "https://github.com/Nwinch1512/08-weather-dashboard"
+    "GitHub": "https://github.com/Nwinch1512/08-weather-dashboard",
+    "summary": "This weather dashboard enables users to enter a city name to search for weather conditions from today through to the next five days.  Data is sourced from the OpenWeather API.  It was built using JQuery, Bootstrap CSS and Moment JS."
   },
   {
     "id": 3,
     "title": "Workday Scheduler",
     "image": "images/03-work-day-scheduler.jpeg",
     "url": "https://nwinch1512.github.io/07-work-day-scheduler/",
-    "GitHub": "https://github.com/Nwinch1512/07-work-day-scheduler"
+    "GitHub": "https://github.com/Nwinch1512/07-work-day-scheduler",
+    "summary": "This application allows users to add calendar entries, which persist between refreshes, and formats entries according to whether they are in the present, future or past.  It also displays the current day at the top of the page.  The application utilises JQuery and Moment JS."
   },
   {
     "id": 4,
     "title": "JavaScript quiz",
     "image": "images/04-javascript-quiz.jpeg",
     "url": "https://nwinch1512.github.io/06-code-quiz/",
-    "GitHub": "https://github.com/Nwinch1512/06-code-quiz"
+    "GitHub": "https://github.com/Nwinch1512/06-code-quiz",
+    "summary": "The website allows users to test their JavaScript knowledge through a series of questions and provides instant feedback over their response. The user receives a score at the end of the quiz to show how well they have performed.  The application was built using JavaScript."
   },
   {
     "id": 5,
     "title": "Password Generator",
     "image": "images/05-password-generator.jpeg",
     "url": "https://nwinch1512.github.io/05-password-generator/",
-    "GitHub": "https://github.com/Nwinch1512/05-password-generator"
+    "GitHub": "https://github.com/Nwinch1512/05-password-generator",
+    "summary": "The password generator allows users to create a password based on user defined criteria, between 10 and 64 characters long.  The application was created using JavaScript."
   },
   {
     "id": 6,
     "title": "Bootstrap Portfolio",
     "image": "images/06-bootstrap-portfolio.jpeg",
     "url": "https://nwinch1512.github.io/Bootstrap-Portfolio/",
-    "GitHub": "https://github.com/Nwinch1512/Bootstrap-Portfolio"
+    "GitHub": "https://github.com/Nwinch1512/Bootstrap-Portfolio",
+    "summary": "This website was my first attempt at building a portfolio page using Bootstrap.  It highlights projects I’ve worked on."
   }
 ]

@@ -65,13 +65,22 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
   .nav-link {
     font-size: 30px;
+  }
+  .NWlogo {
+    width: 50%;
   }
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
   .row {
     height: 250px;
   }

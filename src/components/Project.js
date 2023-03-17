@@ -16,12 +16,7 @@ function Project(props) {
       </div>
       <div className="content">
         <ul>
-          <a
-            className="btn btn-primary"
-            href={props.url}
-            dataToggle="tooltip"
-            role="button"
-          >
+          <a href={props.url} dataToggle="tooltip" className="deploymentLink">
             <Tooltip
               placement="bottom"
               overlay={<span>Click here to access the deployed project</span>}
@@ -44,6 +39,21 @@ function Project(props) {
             </Tooltip>
           </a>
         </ul>
+        <p className="summary">{props.summary}</p>
+
+        {/* <a
+            className="btn btn-primary"
+            href={props.url}
+            dataToggle="tooltip"
+            role="button"
+          >
+            <Tooltip
+              placement="bottom"
+              overlay={<span>Click here to access the deployed project</span>}
+            >
+              <span>{props.title}</span>
+            </Tooltip>
+          </a> */}
       </div>
     </div>
   );
