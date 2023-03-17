@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/13-react-portfolio/static/css/main.2d30a3ab.css",
-    "main.js": "/13-react-portfolio/static/js/main.aa527450.js",
+    "main.css": "/13-react-portfolio/static/css/main.05997ded.css",
+    "main.js": "/13-react-portfolio/static/js/main.6ae70091.js",
     "static/media/pexels-fwstudio-164005.jpg": "/13-react-portfolio/static/media/pexels-fwstudio-164005.f1aed02d5c5f2ed99b0d.jpg",
     "static/media/pexels-photo-3661445.jpeg": "/13-react-portfolio/static/media/pexels-photo-3661445.4bd16c7af91894ae86b9.jpeg",
     "static/media/pexels-henry-&-co-2341290.jpg": "/13-react-portfolio/static/media/pexels-henry-&-co-2341290.3801279005bf6ec61653.jpg",
@@ -18,11 +18,11 @@
     "static/media/296-2963605_logo-microsoft-office-png-transparent-png.png": "/13-react-portfolio/static/media/296-2963605_logo-microsoft-office-png-transparent-png.f8ff82d7bc719d15db2b.png",
     "static/media/agileLogo.jfif": "/13-react-portfolio/static/media/agileLogo.dd6a7bba862b6f14f827.jfif",
     "index.html": "/13-react-portfolio/index.html",
-    "main.2d30a3ab.css.map": "/13-react-portfolio/static/css/main.2d30a3ab.css.map",
-    "main.aa527450.js.map": "/13-react-portfolio/static/js/main.aa527450.js.map"
+    "main.05997ded.css.map": "/13-react-portfolio/static/css/main.05997ded.css.map",
+    "main.6ae70091.js.map": "/13-react-portfolio/static/js/main.6ae70091.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d30a3ab.css",
-    "static/js/main.aa527450.js"
+    "static/css/main.05997ded.css",
+    "static/js/main.6ae70091.js"
   ]
 }
