@@ -1,9 +1,13 @@
 import React from "react";
 import "../styles/Homepage.css";
 import Footer from "../components/Footer";
+import logo from "../images/NW-logo-with-colour.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
 
 const marbleImg = require("../images/pexels-henry-&-co-2341290.jpg");
 const greyWoodImg = require("../images/pexels-photo-4097157.jpeg");
+const greyConstructionImg = require("../images/pexels-photo-3661445.jpeg");
 
 const jQueryLogo = require("../images/jQueryLogo.png");
 const javaScriptLogo = require("../images/javaScriptLogo.png");
@@ -18,7 +22,7 @@ const reactLogo = require("../images/reactLogo.png");
 function Homepage() {
   return (
     <div className="container-fluid">
-      <section>
+      <section className="aboutSection">
         <div
           className="cardContainer col-lg-12 col-md-12 col-sm-3"
           style={{ zIndex: 1, opacity: 1 }}
@@ -29,7 +33,16 @@ function Homepage() {
               id="about"
               style={{ backgroundImage: "url(" + marbleImg + ")" }}
             >
-              <h2 className="card-title">About Me</h2>
+              <h2 className="card-title">
+                <img
+                  src={logo}
+                  width="30"
+                  className="d-inline-block align-top NWlogoAbout"
+                  alt="NW logo"
+                />
+                {"  "}
+                About Me
+              </h2>
               <p className="about">
                 Hello and welcome to my portfolio page! I have extensive
                 analysis and project management experience in both the public
@@ -37,7 +50,7 @@ function Homepage() {
                 <a href="CV web developer.pdf">CV</a>. I'm highly organised and
                 a great problem solver. I enjoy working alone and in a team.
                 I've just completed the University of Birmingham front end web
-                development bootcamp in partnership with edx and am pround to
+                development bootcamp in partnership with edx and am proud to
                 have achieved an A grade. I'm excited to develop my technical
                 skills and take on new challenges. In my spare time I enjoy:
                 weightlifting, jogging, reading, playing board games with my
@@ -54,7 +67,10 @@ function Homepage() {
               id="skills"
               style={{ backgroundImage: "url(" + marbleImg + ")" }}
             >
-              <h2 className="card-title">Skills</h2>
+              <h2 className="card-title">
+                <FontAwesomeIcon icon={faPuzzlePiece} />
+                {"  "}Skills
+              </h2>
               <div className="listContainer">
                 <img
                   className="javaScriptLogo"

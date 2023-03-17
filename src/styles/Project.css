@@ -8,10 +8,10 @@ img {
   background: rgb(82, 82, 82);
   border: none;
   border-radius: 10px;
-  height: 325px;
-  margin: 10px;
+  height: 400px;
+  /* margin: 10px; */
   position: relative;
-  width: 325px;
+  width: 400px;
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
   text-align: left;
   margin-bottom: 30px !important;
@@ -19,14 +19,14 @@ img {
 }
 
 .card > .img-container {
-  height: 60%;
-  overflow: hidden;
+  height: 100%;
+  /* overflow: hidden; */
   text-align: center;
   background-color: white;
 }
 
 .card > .content {
-  margin-top: 20px;
+  /* margin-top: 10px; */
   font-size: 15px;
   text-align: center;
 }

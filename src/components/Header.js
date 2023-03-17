@@ -31,7 +31,7 @@ function Header() {
               <img
                 src={logo}
                 width="60"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top NWlogo"
                 alt="NW logo"
               />
             </a>
@@ -81,10 +81,9 @@ function Header() {
         >
           <div className="row align-items-center">
             <div className="col">
-              <h1>Naomi Winchurch</h1>
+              <h1>Naomi Winchurch | Web Developer</h1>
               <p className="lead custom-hero-text">
-                "Proactive, organised, great problem solver, with a solid
-                foundation in web development"
+                "Proactive, organised, creative, and a great problem solver"
               </p>
             </div>
             <div className="col-sm-2">

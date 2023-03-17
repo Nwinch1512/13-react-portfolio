@@ -3,37 +3,36 @@ import "../styles/Contactspage.css";
 import Contact from "../components/Contactinfo.js";
 
 class Contactspage extends Component {
-  state = {
-    firstName: "",
-    lastName: "",
-  };
+  // state = {
+  //   firstName: "",
+  //   lastName: "",
+  // };
 
-  inputChange = (event) => {
-    const { name, value } = event.target;
+  // inputChange = (event) => {
+  //   const { name, value } = event.target;
 
-    this.setState({
-      [name]: value,
-    });
-  };
+  //   this.setState({
+  //     [name]: value,
+  //   });
+  // };
 
-  submitForm = (event) => {
-    event.preventDefault();
+  // submitForm = (event) => {
+  //   event.preventDefault();
 
-    alert(
-      `Greetings ${this.state.firstName} ${this.state.lastName} and welcome to my site!`
-    );
-    this.setState({
-      firstName: "",
-      lastName: "",
-    });
-  };
+  //   alert(
+  //     `Greetings ${this.state.firstName} ${this.state.lastName} and welcome to my site!`
+  //   );
+  //   this.setState({
+  //     firstName: "",
+  //     lastName: "",
+  //   });
+  // };
 
   render() {
     return (
       <div className="contact-container">
         <Contact />
-        <form className="form card-body-contact col-lg-5 col-md-5 col-sm-12">
-          {/* <div className="form-group card-body"> */}
+        {/* <form className="form card-body-contact col-lg-5 col-md-5 col-sm-12">
           <h2 className="heading">Contact Form</h2>
           <p className="instruction">
             Enter your details if you'd like to get in touch
@@ -73,8 +72,7 @@ class Contactspage extends Component {
           >
             Submit
           </button>
-          {/* </div> */}
-        </form>
+        </form> */}
       </div>
     );
   }

@@ -7,9 +7,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
-    <section className="contact-container col-lg-5 col-md-5 col-sm-12">
+    <section className="contact-container col-lg-9 col-md-9 col-sm-12">
       <div className="card-body-contact" id="contact">
-        <h2 className="card-title">Contact </h2>
+        <h2 className="card-title">
+          <FontAwesomeIcon icon={faAddressBook} /> Contact{"  "}
+        </h2>
         <div className="contact-info">
           <p className="contact">
             Please read my <a href="CV web developer.pdf">CV</a> for information

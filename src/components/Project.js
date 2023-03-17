@@ -6,13 +6,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "rc-tooltip/assets/bootstrap.css";
 
 const greyWoodImg = require("../images/pexels-photo-3575827-brick-slate.jpeg");
+const marbleImg = require("../images/pexels-henry-&-co-2341290.jpg");
 
 function Project(props) {
   return (
-    <div
-      className="card"
-      style={{ backgroundImage: "url(" + greyWoodImg + ")" }}
-    >
+    <div className="card" style={{ backgroundImage: "url(" + marbleImg + ")" }}>
       <div className="img-container">
         <img alt={props.title} src={props.image} />
       </div>

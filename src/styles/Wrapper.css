@@ -1,16 +1,16 @@
 .projectContainer {
-  box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
+  /* box-shadow: 5px 5px 5px 5px rgb(82, 82, 82); */
   margin-left: 20px;
   margin-right: 20px;
-  color: rgb(82, 82, 82);
+  color: white;
   border-radius: 5px;
 }
 
 .project.card-title {
   padding-bottom: 10px;
-  color: rgb(82, 82, 82);
+  color: white;
   font-weight: bold;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 0px;
@@ -18,11 +18,12 @@
 
 .wrapper {
   padding-top: 25px;
+  padding-bottom: 50px;
   color: rgb(82, 82, 82);
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 25px;
+  /* padding: 25px; */
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
