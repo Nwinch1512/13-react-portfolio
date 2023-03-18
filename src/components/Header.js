@@ -29,7 +29,10 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <a className="navbar-brand spacer" href="/">
+            <a
+              className="navbar-brand spacer"
+              href="https://nwinch1512.github.io/13-react-portfolio/#/"
+            >
               <img
                 src={logo}
                 width="60"
@@ -89,8 +92,10 @@ function Header() {
               <video
                 className="video-jumbotron"
                 src={jumbotronVideo}
-                autoPlay
-                loop
+                autoPlay={true}
+                loop={true}
+                controls={false}
+                playsInline
                 muted
               ></video>
               <h1>Naomi Winchurch | Web Developer</h1>

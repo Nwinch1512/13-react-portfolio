@@ -29,6 +29,7 @@ function Footer() {
         >
           <FontAwesomeIcon icon={faLinkedin} className="linkedinBtn" />
         </a>
+        <p className="copyright">© 2023 Naomi Winchurch</p>
       </div>
     </footer>
   );
