@@ -29,10 +29,7 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <a
-              className="navbar-brand spacer"
-              href="https://nwinch1512.github.io/13-react-portfolio/#/"
-            >
+            <a className="navbar-brand spacer" href="/">
               <img
                 src={logo}
                 width="60"
