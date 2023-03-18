@@ -8,7 +8,7 @@ body {
   background: cover;
 }
 
-h2 {
+.card-title {
   padding-top: 30px;
   padding-left: 30px;
   color: rgb(82, 82, 82);
@@ -39,6 +39,11 @@ body {
   color: rgb(82, 82, 82);
 }
 
+.cv,
+.email {
+  color: #582c4d;
+  font-weight: bold;
+}
 .skills-items {
   width: 100%;
   color: rgb(82, 82, 82);
@@ -79,7 +84,7 @@ body {
 
 .card-body {
   background: white;
-  margin-top: 50px;
+  /* margin-top: 125px; */
   padding: 0;
   border-radius: 5px !important;
 }
@@ -142,4 +147,17 @@ body {
   .microsoftLogo {
     margin-left: 50px;
   }
+  .card-title {
+    margin-top: 75px;
+  }
+}
+
+.cv:hover,
+.email:hover {
+  color: white;
+  background-color: #582c4d;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px !important;
+  padding: 3px;
 }

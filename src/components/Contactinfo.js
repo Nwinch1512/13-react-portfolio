@@ -14,10 +14,15 @@ function Contact() {
         </h2>
         <div className="contact-info">
           <p className="contact">
-            Please read my <a href="CV web developer.pdf">CV</a> for information
-            on my background. Feel free to{" "}
-            <a href="mailto: naomi.winchurch@hotmail.co.uk">email</a> me if you
-            have any questions.
+            Please read my{" "}
+            <a href="CV web developer.pdf" className="cv">
+              CV
+            </a>{" "}
+            for information on my background. Feel free to{" "}
+            <a href="mailto: naomi.winchurch@hotmail.co.uk" className="email">
+              email
+            </a>{" "}
+            me if you have any questions.
           </p>
           <p className="contact">
             Links to my GitHub and Linkedin profiles have also been included

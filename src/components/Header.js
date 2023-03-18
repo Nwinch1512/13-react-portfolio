@@ -6,6 +6,7 @@ import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import logo from "../images/NW-logo.png";
+import jumbotronVideo from "../images/pexels-german-korb-5644053.mp4";
 
 const profileImg = require("../images/bw-profile.png");
 const jumbotronImg = require("../images/pexels-fwstudio-164005.jpg");
@@ -78,11 +79,20 @@ function Header() {
       </section>
       <section>
         <div
-          className="jumbotron jumbotron-fluid jumbotron-custom"
-          style={{ backgroundImage: "url(" + jumbotronImg + ")" }}
+          // className="jumbotron jumbotron-fluid jumbotron-custom"
+          className="jumbotron jumbotron-custom"
+          // style={{}}
+          // style={{ backgroundImage: "url(" + jumbotronImg + ")" }}
         >
           <div className="row align-items-center">
             <div className="col">
+              <video
+                className="video-jumbotron"
+                src={jumbotronVideo}
+                autoPlay
+                loop
+                muted
+              ></video>
               <h1>Naomi Winchurch | Web Developer</h1>
               <p className="lead custom-hero-text">
                 "Proactive, organised, creative, and a great problem solver"

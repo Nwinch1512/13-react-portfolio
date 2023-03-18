@@ -8,14 +8,18 @@ img {
   line-height: 1rem;
 }
 
+/* .project.card-title {
+  margin-top: 50px;
+} */
+
 .card {
   background: rgb(82, 82, 82);
   border: none;
   border-radius: 10px;
-  height: 540px;
+  height: 575px;
   /* margin: 10px; */
   position: relative;
-  width: 400px;
+  width: 500px;
   box-shadow: 5px 5px 5px 5px rgb(82, 82, 82);
   text-align: left;
   margin-bottom: 30px !important;
@@ -68,13 +72,17 @@ p.summary {
   color: white;
   border: none;
   margin: 0.5rem;
-  float: right;
-  margin-top: -10px;
-  margin-right: 20px;
+
   /* justify-content: center;
   text-align: center;
   margin-right: 100px; */
   /* padding: 10px !important; */
+}
+
+.githubRepo {
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
 }
 
 .btn:hover {
