@@ -5,7 +5,7 @@
     "image": "images/07-miix-desktop-landing-page-view.jpeg",
     "url": "https://deft-haupia-213070.netlify.app/",
     "GitHub": "https://github.com/Nwinch1512/14-miix",
-    "summary": "Miix recommends a playlist based on the music listening history of a group of friends/ family members.  It runs a series of get and post requests to Spotify web API endpoints - utilising React JS, and Bootstrap.  We adopted agile methodology for this team project."
+    "summary": "Miix recommends a playlist based on a group of friends/ family members' shared music listening history.  It runs a series of get and post requests to Spotify web API endpoints.  We utilised React JS, and Bootstrap, whilst working in an agile way on this team project."
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "image": "images/01-meal-planner.jpeg",
     "url": "https://nwinch1512.github.io/09-weekly-meal-planner/",
     "GitHub": "https://github.com/Nwinch1512/09-weekly-meal-planner",
-    "summary": "Meal Planner inspires people to cook by empowering them to tailor recipe searches.  It’s inclusive to those with allergies or following restricted diets.  It was built using JavaScript, CSS, HTML and bootstrap.  The Spoonacular API and agile methodology were utilised for this team project."
+    "summary": "Meal Planner enables tailored recipe searches to inspire people to cook.  It’s inclusive to those with allergies or following restricted diets.  It was built using JQuery, CSS, HTML and bootstrap.  We utilised the Spoonacular API and agile methodology on this team project."
   },
   {
     "id": 2,
