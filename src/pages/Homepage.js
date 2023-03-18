@@ -49,13 +49,17 @@ function Homepage() {
                 <a href="CV web developer.pdf" className="cv">
                   CV
                 </a>
-                . I'm highly organised and a great problem solver. I enjoy
-                working alone and in a team. I've just completed the University
-                of Birmingham front end web development bootcamp in partnership
-                with edx and am proud to have achieved an A grade. I'm excited
-                to develop my technical skills and take on new challenges. In my
-                spare time I enjoy: weightlifting, jogging, reading, playing
-                board games with my family, cooking and drawing.
+                . <br></br>
+                <br></br>I'm highly organised and a great problem solver. I
+                enjoy working alone and in a team. I've just completed the
+                University of Birmingham front end web development bootcamp in
+                partnership with edx and am proud to have achieved an A grade.
+                <br></br>
+                <br></br>
+                I'm excited to develop my technical skills and take on new
+                challenges. In my spare time I enjoy: weightlifting, jogging,
+                reading, playing board games with my family, cooking and
+                drawing.
               </p>
             </div>
           </div>
