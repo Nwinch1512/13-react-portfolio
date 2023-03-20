@@ -16,8 +16,9 @@ body {
   line-height: 1.9;
 }
 
-body {
-  background-color: rgb(161, 160, 160);
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .aboutSection {
@@ -107,6 +108,20 @@ body {
   height: 50%;
 }
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar {
+  background: rgb(82, 82, 82);
+  color: rgb(161, 160, 160);
+  z-index: 1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(#582c4d);
+  border-radius: 20px;
+}
 @media (max-width: 458px) {
   .listContainer {
     display: block;
