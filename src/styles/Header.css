@@ -39,6 +39,7 @@ h1 {
 
 .nav-link {
   font-size: 40px;
+  text-align: center;
 }
 
 .navbar-nav {
@@ -48,6 +49,11 @@ h1 {
 
 .nav-item {
   margin: 0px 15px;
+}
+
+.nav-item-text {
+  font-size: 20px;
+  text-align: center;
 }
 
 .jumbotron-custom {
@@ -69,12 +75,13 @@ h1 {
   box-shadow: 5px 5px 20px rgb(82, 82, 82);
 }
 
-.icon:hover {
+.nav-link:hover {
   background-color: white !important;
   color: rgb(82, 82, 82) !important;
   transition: 0.05s;
   border-radius: 3px;
-  padding: 3px;
+  padding: 4px;
+  padding-right: 10px;
 }
 
 @media (min-width: 375px) {
@@ -108,8 +115,18 @@ h1 {
   h1 {
     font-size: 2rem;
   }
-  .nav-link {
+  .nav-link,
+  .nav-item-text {
     font-size: 30px;
+  }
+  .nav-item-text {
+    font-size: 16px;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .nav-item {
+    max-width: 25%;
   }
   .NWlogo {
     width: 50%;

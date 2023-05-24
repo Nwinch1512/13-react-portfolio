@@ -48,6 +48,7 @@ function Header() {
                   }
                 >
                   <FontAwesomeIcon icon={faHome} className="icon" />
+                  <li className="nav-item-text">Home</li>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -59,6 +60,7 @@ function Header() {
                   }
                 >
                   <FontAwesomeIcon icon={faBriefcase} className="icon" />
+                  <li className="nav-item-text">Projects</li>
                 </NavLink>
               </li>
 
@@ -71,6 +73,7 @@ function Header() {
                   }
                 >
                   <FontAwesomeIcon icon={faAddressBook} className="icon" />
+                  <li className="nav-item-text">Contact</li>
                 </NavLink>
               </li>
             </ul>
