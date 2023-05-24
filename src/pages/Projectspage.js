@@ -14,6 +14,7 @@ class Projectspage extends Component {
           <Project
             title={project.title}
             image={project.image}
+            tech={project.tech}
             summary={project.summary}
             url={project.url}
             GitHub={project.GitHub}

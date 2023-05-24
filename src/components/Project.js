@@ -39,6 +39,7 @@ function Project(props) {
             </Tooltip>
           </a>
         </ul>
+        <p className="tech">{props.tech}</p>
         <p className="summary">{props.summary}</p>
 
         {/* <a
